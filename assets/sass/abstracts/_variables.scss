@@ -1,0 +1,35 @@
+// COLORS
+
+$color-white: #FEFEFE;
+$color-black: #070201;
+
+$color-primary: #113B57;
+$color-secondary: lighten( $color-primary, 10%);
+$color-tertiary: darken( $color-primary, 10%);
+$color-quaternary: #E87F4D;
+// $color-quaternary: #C83530;
+
+
+
+@import "~vue-material/dist/theme/engine"; // Import the theme engine
+
+@include md-register-theme("default", (
+  primary: #113B57, // The primary color of your brand
+  accent: #E87F4D, // The secondary color of your brand
+));
+
+
+@import "~vue-material/dist/theme/all"; // Apply the theme
+
+// FONT 
+
+$default-font-size: 1.6rem;
+
+// GRID
+
+$grid-width: 114rem;
+
+// Padding
+
+$padding: 0 4rem;
+
