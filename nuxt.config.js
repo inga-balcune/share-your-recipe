@@ -43,8 +43,12 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/style-resources'
+    '@nuxtjs/style-resources',
+    '@bazzite/nuxt-optimized-images',
   ],
+  optimizedImages: {
+    optimizeImages: true
+  },
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options

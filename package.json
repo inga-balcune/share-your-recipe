@@ -8,9 +8,11 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
+    "@bazzite/nuxt-optimized-images": "^0.2.1",
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/style-resources": "^0.1.2",
     "firebase": "^6.4.0",
