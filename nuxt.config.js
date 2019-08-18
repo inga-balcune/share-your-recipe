@@ -34,7 +34,6 @@ export default {
     '~/plugins/Vuelidate',
     { src: '~/plugins/vue-material' },
     '~/plugins/axios',
-    '~/plugins/UUID',
     '~/plugins/firebase'
   ],
   /*
