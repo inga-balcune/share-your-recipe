@@ -6,9 +6,13 @@
   </div>
 </template>
 
-<style scoped>
+<style lang='scss' scoped>
 .default {
   padding: 0 3rem;
+
+  @include respond(phone) {
+    min-height: 100vh;
+  }
 }
 
 

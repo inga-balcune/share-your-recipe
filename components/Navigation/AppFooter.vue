@@ -24,6 +24,11 @@ export default {
 .footer {
   position: fixed;
   bottom: 0;
+
+  @include respond(phone) {
+    position: absolute;
+    bottom: 0;
+  }
 }
 
 .footer-text {
