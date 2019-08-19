@@ -11,6 +11,11 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
+    // script: [
+    //   { src: 'https://www.gstatic.com/firebasejs/6.4.0/firebase-app.js' },
+    //   { src: 'https://www.gstatic.com/firebasejs/6.4.0/firebase-functions.js' },
+    //   { src: 'https://www.gstatic.com/firebasejs/6.4.0/firebase-database.js' }
+    // ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
       { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700,400italic|Material+Icons' }
@@ -34,7 +39,6 @@ export default {
     '~/plugins/Vuelidate',
     { src: '~/plugins/vue-material' },
     '~/plugins/axios',
-    '~/plugins/firebase'
   ],
   /*
   ** Nuxt.js modules

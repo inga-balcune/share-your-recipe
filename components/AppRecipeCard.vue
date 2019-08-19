@@ -38,7 +38,6 @@
 
 <script>
 import axios from 'axios'
-import firebase from 'firebase'
 import { mapState } from 'vuex'
 export default {
   
@@ -77,7 +76,6 @@ export default {
   methods: {
     onDelete() {
       this.$store.dispatch('deleteRecipe', this.id)
-      this.$router.go(0)
     }
   }
 }

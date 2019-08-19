@@ -156,7 +156,6 @@
 </template>
 
 <script>
-  import firebase from 'firebase'
   // import { validationMixin } from 'vuelidate'
   import {
     required,
