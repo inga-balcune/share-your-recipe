@@ -25,9 +25,11 @@ export default {
   position: fixed;
   bottom: 0;
 
-  @include respond(phone) {
+  @include respond(tab-land) {
     position: absolute;
     bottom: 0;
+    width: 100%;
+    height: 5rem;
   }
 }
 
