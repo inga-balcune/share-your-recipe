@@ -34,12 +34,31 @@ export default {
 }
 </script>
 
-<style lang='scss' scoped>
+<style lang='scss'>
+
+body {
+   box-sizing: border-box;
+   min-height: 100vh;
+   background-color: $color-white;
+
+   @include respond(tab-land) {
+      position: relative;
+      &::after {
+         content: '';
+         display: block;
+         height: 0; /* Set same as footer's height */
+       }
+   }
+}
 
 .header {
   height: 100vh;
   background-size: cover;
   background-position: center;
+
+  @include respond(phone) { 
+    height: 120vh;
+  }
 }
 
 .home-section {
