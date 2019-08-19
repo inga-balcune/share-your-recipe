@@ -224,8 +224,15 @@ export default {
   background-repeat: no-repeat;
   background-position: 50% 50%;
 
+
   @include respond(tab-port) {
     margin: 1rem 0;
+    height: 55rem;
+  }
+
+
+  @include respond(phone) {
+    height: 40rem;
   }
 
   img {

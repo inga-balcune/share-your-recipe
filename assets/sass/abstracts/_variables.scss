@@ -6,7 +6,7 @@ $color-black: #070201;
 $color-primary: #113B57;
 $color-secondary: lighten( $color-primary, 10%);
 $color-tertiary: darken( $color-primary, 10%);
-$color-quaternary: #E87F4D;
+$color-quaternary: #D44206;
 // $color-quaternary: #C83530;
 
 
@@ -15,7 +15,7 @@ $color-quaternary: #E87F4D;
 
 @include md-register-theme("default", (
   primary: #113B57, // The primary color of your brand
-  accent: #E87F4D, // The secondary color of your brand
+  accent: #D44206, // The secondary color of your brand
 ));
 
 

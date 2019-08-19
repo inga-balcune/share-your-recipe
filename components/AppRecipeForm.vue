@@ -129,7 +129,7 @@
           </md-field>
 
             <div class="md-layout md-gutter">
-              <div class="md-layout-item md-xlarge-size-12.5 md-large-size-20 md-xsmall-size-30" v-for="(image, imageIndex) in form.images" :key="'D' + imageIndex">
+              <div class="md-layout-item md-xlarge-size-15 md-large-size-20 md-xsmall-size-30" v-for="(image, imageIndex) in form.images" :key="'D' + imageIndex">
                 <!-- <span class="md-list-item-text">{{image}}</span> -->
                 <img class='images' :src="image" :alt="form.title + ' recipe image #' + imageIndex + 1">
                 <span @click="removeImage(imageIndex)"><md-icon class='image-delete-icon delete-hover-class md-accent'>delete_forever</md-icon></span>

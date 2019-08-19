@@ -87,7 +87,7 @@ export const state = () => {
     },
     deleteRecipe(vuexContext, id) {
     //  return firebase.database().ref().child("recipes").child(id).remove() 
-    return axios.delete(`https://share-your-recipe.firebaseio.com/recipes/${id}.json?auth=${vuexContext.state.token}`, { id: id })
+    return this.$axios.$delete(`https://share-your-recipe.firebaseio.com/recipes/${id}.json?auth=${vuexContext.state.token}`, { id: id })
       .then(response => {
         this.$router.go(0)
         vuexContext.commit('deleteRecipe', id) })

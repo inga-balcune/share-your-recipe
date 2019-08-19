@@ -2,7 +2,10 @@
   <div class='recipes-section'>
     <AppEmptyState v-if='authRecipes.length < 1' />
     <section v-else>
-      <h1>My recipes</h1>
+        <h1 class='heading'>My recipes</h1>
+        <md-button class='md-fab add-recipe' to="/admin/new-post">
+          <md-icon>add</md-icon>
+        </md-button>
       <md-field class='search-bar'>
         <label class='my-searchbar-label'>Search for a title, ingredient, meal type or cuisine!</label>
         <md-input v-model="searchText" @input='filterBySearchText(searchText)'></md-input>
@@ -55,13 +58,20 @@ export default {
   margin-bottom: 2rem;
 }
 
-.search-bar {
-  width: 50%;
+.heading {
+  text-align: center;
+  margin-bottom: 2rem;
+}
 
-  @include respond(big-desktop) {
-    margin: 0 auto 2rem auto;
-    width: 40%;
-  }
+.add-recipe {
+  display: block;
+  text-align: center;
+  margin: 0 auto 2rem auto;
+
+}
+
+.search-bar {
+  width: 40%;
 
   @include respond(tab-port) {
     width: 60%;
