@@ -9,7 +9,7 @@
       <p>Also, I wanted to create a project using one of the material design component frameworks. After some research, I found Vue Material framework which allowed me to focus more on the development rather than putting all my efforts into designing the site.</p>
       <h2>Challenges</h2>
       <p>Some of the major challenges in this project were related to Vuex, error handling, using Axios with Firebase.</p>
-      <h2>A note</h2>
+      <h2>A warning</h2>
       <p>The published recipes are only meant for presentation purposes. All the recipes have been taken from the <a href="https://www.allrecipes.com">All Recipes</a> and photos from the Google images.</p>
       <p>Advisable not to follow the recipe instructions since the provided information may not be complete and accurate.</p>
     </md-content>
