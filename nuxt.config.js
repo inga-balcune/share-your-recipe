@@ -48,6 +48,9 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/style-resources',
     '@bazzite/nuxt-optimized-images',
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-143406553-3'
+    }]
   ],
   optimizedImages: {
     optimizeImages: true
