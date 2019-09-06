@@ -1,4 +1,4 @@
-# recipes
+# share your recipe
 
 > Add and share your favorite recipes
 

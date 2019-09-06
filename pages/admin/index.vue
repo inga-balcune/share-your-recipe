@@ -67,7 +67,13 @@ export default {
   display: block;
   text-align: center;
   margin: 0 auto 2rem auto;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
 
+>>>>>>> a2ee10a... layout changes
+=======
+>>>>>>> e398e62... typo
 }
 
 .search-bar {

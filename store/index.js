@@ -1,5 +1,17 @@
 import axios from 'axios'
 import Cookie from 'js-cookie'
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import firebase from 'firebase/app'
+<<<<<<< HEAD
+>>>>>>> 1c94827... firebase fixes
+=======
+import 'firebase/database'
+import 'firebase/functions'
+>>>>>>> e8afeab... your message
+=======
+>>>>>>> 657827c... removed firebase plugin
 
 
 
@@ -87,7 +99,15 @@ export const state = () => {
     },
     deleteRecipe(vuexContext, id) {
     //  return firebase.database().ref().child("recipes").child(id).remove() 
+<<<<<<< HEAD
+<<<<<<< HEAD
     return this.$axios.$delete(`https://share-your-recipe.firebaseio.com/recipes/${id}.json?auth=${vuexContext.state.token}`, { id: id })
+=======
+    return axios.delete(`https://share-your-recipe.firebaseio.com/recipes/${id}.json?auth=${vuexContext.state.token}`, { id: id })
+>>>>>>> 657827c... removed firebase plugin
+=======
+    return this.$axios.$delete(`https://share-your-recipe.firebaseio.com/recipes/${id}.json?auth=${vuexContext.state.token}`, { id: id })
+>>>>>>> a2ee10a... layout changes
       .then(response => {
         this.$router.go(0)
         vuexContext.commit('deleteRecipe', id) })

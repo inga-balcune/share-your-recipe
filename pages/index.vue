@@ -4,7 +4,7 @@
     <div class='home-section md-elevation-1'>
       <div class='home-section__content'>
         <h1>Share your recipe</h1>
-        <md-button to="/recipes" class="md-primary md-raised">Seach Recipes</md-button>
+        <md-button to="/recipes" class="md-primary md-raised">Search Recipes</md-button>
         <md-button to="/admin/new-post" class="md-primary md-raised">Add Recipe</md-button>
       </div>
 
