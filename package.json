@@ -20,18 +20,9 @@
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/google-analytics": "^2.2.0",
     "@nuxtjs/style-resources": "^0.1.2",
-<<<<<<< HEAD
-<<<<<<< HEAD
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-pngquant": "^8.0.0",
     "imagemin-svgo": "^7.0.0",
-=======
->>>>>>> 657827c... removed firebase plugin
-=======
-    "imagemin-mozjpeg": "^8.0.0",
-    "imagemin-pngquant": "^8.0.0",
-    "imagemin-svgo": "^7.0.0",
->>>>>>> 6eab0e7... added image optimization packages
     "js-cookie": "^2.2.1",
     "node-sass": "^4.12.0",
     "nuxt": "^2.0.0",
